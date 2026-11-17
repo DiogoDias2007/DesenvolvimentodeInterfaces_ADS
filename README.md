@@ -25,6 +25,10 @@ img/         → fotos dos jogadores (veja img/LEIA-ME.md)
 - Menu fixo com `position: sticky` e `backdrop-filter`
 - Layout responsivo com `@media` para tablet e celular
 
+## Módulo JavaScript — Calculadora de Média
+Projeto em [`calculadora-media/`](calculadora-media/) (HTML, CSS e JavaScript).
+Acesse: https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/
+
 ## Publicação
 O site é publicado pelo GitHub Pages a partir da branch `main`.
 
