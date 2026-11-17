@@ -2,10 +2,10 @@
 
 Desenvolvimento de Interface · ADS · CEUB
 
-**Abrir:** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula03-JavaScript/
+**Abrir:** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-03/
 
 ```
-Aula03-JavaScript/
+aula-03/
 ├── index.html              → estrutura: campos, rótulos, botão e área de resultado
 ├── estilo.css              → apresentação
 ├── script.js               → seleção no DOM, evento de clique, validação, funções e saída

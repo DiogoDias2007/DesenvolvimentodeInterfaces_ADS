@@ -4,14 +4,14 @@ Desenvolvimento de Interface · ADS · CEUB
 
 | Atividade | Arquivos | Abrir |
 |-----------|----------|-------|
-| Laboratório 1 — Cadastro simples (console) | `laboratorio1/cadastro.js` | [laboratorio1/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula01-JavaScript/laboratorio1/) + F12 → Console |
-| Laboratório 2 — Calculadora de operações | `index.html`, `style.css`, `script.js` | [Aula01-JavaScript/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula01-JavaScript/) |
-| Laboratório 3 — Calculadora de média | `laboratorio3/index.html`, `media.js`, `media.css` | [laboratorio3/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula01-JavaScript/laboratorio3/) |
-| Exercícios de fixação 1 a 6 (console) | `exercicios/exercicios.js` | [exercicios/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula01-JavaScript/exercicios/) + F12 → Console |
+| Laboratório 1 — Cadastro simples (console) | `laboratorio1/cadastro.js` | [laboratorio1/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-01/laboratorio1/) + F12 → Console |
+| Laboratório 2 — Calculadora de operações | `index.html`, `style.css`, `script.js` | [aula-01/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-01/) |
+| Laboratório 3 — Calculadora de média | `laboratorio3/index.html`, `media.js`, `media.css` | [laboratorio3/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-01/laboratorio3/) |
+| Exercícios de fixação 1 a 6 (console) | `exercicios/exercicios.js` | [exercicios/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-01/exercicios/) + F12 → Console |
 | Evidências | `evidencias/calculadora.png`, `evidencias/media-estudante.png` | — |
 
 ```
-Aula01-JavaScript/
+aula-01/
 ├── index.html          → Laboratório 2 (calculadora)
 ├── style.css
 ├── script.js

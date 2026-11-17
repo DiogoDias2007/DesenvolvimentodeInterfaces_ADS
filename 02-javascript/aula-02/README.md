@@ -4,16 +4,16 @@ Desenvolvimento de Interface · ADS · CEUB
 
 | Atividade | Arquivos | Abrir |
 |-----------|----------|-------|
-| Laboratório 1 — Verificador de idade (+ desafio extra) | `index.html`, `script.js` | [Aula02-JavaScript/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula02-JavaScript/) |
-| Laboratório 2 — Calculadora de média e situação (+ CSS opcional) | `laboratorio-media/` | [laboratorio-media/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula02-JavaScript/laboratorio-media/) |
-| Exercícios 1, 2 e 3 (console) | `exercicios/console/exercicios.js` | [console/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula02-JavaScript/exercicios/console/) + F12 → Console |
-| Exercício 4 — Saudação no DOM | `exercicios/exercicio4/` | [exercicio4/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula02-JavaScript/exercicios/exercicio4/) |
-| Exercício 5 — Temperatura | `exercicios/exercicio5/` | [exercicio5/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula02-JavaScript/exercicios/exercicio5/) |
-| Exercício 6 — Validação por campo | `exercicios/exercicio6/` | [exercicio6/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/JavaScript/Aula02-JavaScript/exercicios/exercicio6/) |
+| Laboratório 1 — Verificador de idade (+ desafio extra) | `index.html`, `script.js` | [aula-02/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-02/) |
+| Laboratório 2 — Calculadora de média e situação (+ CSS opcional) | `laboratorio-media/` | [laboratorio-media/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-02/laboratorio-media/) |
+| Exercícios 1, 2 e 3 (console) | `exercicios/console/exercicios.js` | [console/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-02/exercicios/console/) + F12 → Console |
+| Exercício 4 — Saudação no DOM | `exercicios/exercicio4/` | [exercicio4/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-02/exercicios/exercicio4/) |
+| Exercício 5 — Temperatura | `exercicios/exercicio5/` | [exercicio5/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-02/exercicios/exercicio5/) |
+| Exercício 6 — Validação por campo | `exercicios/exercicio6/` | [exercicio6/](https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/02-javascript/aula-02/exercicios/exercicio6/) |
 | Capturas de tela dos testes | `evidencias/` (18 imagens) | — |
 
 ```
-Aula02-JavaScript/
+aula-02/
 ├── index.html, script.js      → Laboratório 1
 ├── laboratorio-media/         → Laboratório 2 (index.html, script.js, style.css)
 ├── exercicios/
