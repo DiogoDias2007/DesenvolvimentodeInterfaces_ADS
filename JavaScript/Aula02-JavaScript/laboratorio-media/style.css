@@ -1,0 +1,56 @@
+/* Passo 6 — melhoria opcional: organização, contraste, espaçamento e legibilidade.
+   A situação continua escrita no texto; a cor é só um reforço. */
+* { box-sizing: border-box; }
+
+body {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 0 16px;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #1f1f1f;
+  background: #ffffff;
+}
+
+h1 { color: #43054e; }
+
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: bold;
+}
+
+input, button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  font-size: 18px;
+  border: 2px solid #6b6b6b;
+  border-radius: 6px;
+}
+
+input:focus, button:focus {
+  outline: 3px solid #662c92;
+  outline-offset: 2px;
+}
+
+button {
+  margin-top: 24px;
+  color: #ffffff;
+  background: #662c92;
+  border-color: #662c92;
+  cursor: pointer;
+}
+
+#resultado {
+  margin-top: 24px;
+  padding: 16px;
+  border-left: 6px solid #6b6b6b;
+  background: #f2f2f2;
+}
+
+#resultado:empty { display: none; }
+#resultado.aprovado { border-color: #1e7b34; background: #e6f4ea; }
+#resultado.recuperacao { border-color: #9a6700; background: #fff4d6; }
+#resultado.erro { border-color: #b3261e; background: #fbe9e8; }
