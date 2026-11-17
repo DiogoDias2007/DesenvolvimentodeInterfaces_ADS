@@ -5,7 +5,7 @@ Média = (nota1 + nota2 + nota3) / 3, exibida com uma casa decimal (`toFixed(1)`
 
 Testes executados em 17/11/2026 no Chromium. Console (F12 → Console) **sem nenhum erro** em todas as páginas.
 
-## Aula 1 — Cálculo no console (`evolucao/aula1-versao1.js` e `aula1-versao2.js`)
+## Aula 1 — Cálculo no console (`aula1/versao1/aula1-media.js` e `aula1/versao2/aula1-media.js`)
 
 | Entrada | Média | Esperado | Obtido no console | OK? |
 |---------|-------|----------|-------------------|-----|
@@ -14,7 +14,7 @@ Testes executados em 17/11/2026 no Chromium. Console (F12 → Console) **sem nen
 | Bia; 5, 6 e 7 | 6,0 | Nome e média 6.0 | Estudante: Bia / Média: 6.0 | ✅ |
 | Caio; 10, 10 e 9 | 9,7 | Média com uma casa decimal | Estudante: Caio / Média: 9.7 | ✅ |
 
-## Aula 2 — Funções, validação e classificação (`evolucao/aula2-versao3.js`, `aula2-versao4.js`)
+## Aula 2 — Funções, validação e classificação (`aula2/versao3/aula2-media.js`, `aula2/versao4/aula2-media.js`)
 
 | Entrada | Média | Esperado | Obtido no console | OK? |
 |---------|-------|----------|-------------------|-----|
@@ -24,7 +24,8 @@ Testes executados em 17/11/2026 no Chromium. Console (F12 → Console) **sem nen
 | Versão 4: Ana; 3, 4 e 2 | 3,0 | Reprovado | Média: 3.0 / Situação: Reprovado | ✅ |
 | Versão 4: João; 8, 12 e 7 | — | Mensagem de nota inválida | As notas devem estar entre 0 e 10. | ✅ |
 | Versão 4: nome vazio; 8, 7 e 9 | — | Pedir o nome | Informe o nome do estudante. | ✅ |
-| Extensão (while): Ana 8, 7, 9 → Rui 3, 4, 2 → "fim" | 8,0 e 3,0 | Dois estudantes e encerrar | Ana 8.0 Aprovado / Rui 3.0 Reprovado / Programa encerrado. | ✅ |
+| Extensão (`aula2/extensao/extensao-repeticao.js`): Ana → Rui → "fim" | — | Repetir até digitar fim | Pediu os nomes até "fim" / Programa encerrado. | ✅ |
+| Extensão: cancelar o prompt | — | Encerrar | Programa encerrado. | ✅ |
 
 ## Aula 3 — Aplicação web (`index.html`, `style.css`, `script.js`)
 

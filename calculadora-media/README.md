@@ -3,22 +3,30 @@
 Projeto de conclusão do Módulo JavaScript da disciplina **Desenvolvimento de Interfaces (ADS)**, seguindo o *Guia de evolução da Calculadora de Média em JavaScript*.
 
 - **Aplicação final (Aula 3):** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/
-- **Versões das Aulas 1 e 2 (console):** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/evolucao/
+- **Versões das Aulas 1 e 2 (console — abra e pressione F12):**
+  - Aula 1, Versão 1: https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/aula1/versao1/
+  - Aula 1, Versão 2: https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/aula1/versao2/
+  - Aula 2, Versão 3: https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/aula2/versao3/
+  - Aula 2, Versão 4: https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/aula2/versao4/
+  - Extensão com repetição: https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/aula2/extensao/
 - **Desafio de compreensão:** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/desafio/
 
 ## Estrutura
+Cada pasta de versão tem um `index.html` simples que carrega o arquivo `.js` com o nome usado no guia.
+
 ```
 calculadora-media/
 ├── index.html      → estrutura: formulário, botões Calcular e Limpar, área de resultado
 ├── style.css       → apresentação: cores de aprovado, recuperação, reprovado e erro
 ├── script.js       → DOM, evento submit, validação, cálculo e classificação
 ├── TESTES.md       → registro de todos os testes (Aulas 1, 2 e 3)
-├── evolucao/       → versões do console
-│   ├── aula1-versao1.js       dados definidos no código
-│   ├── aula1-versao2.js       dados informados com prompt()
-│   ├── aula2-versao3.js       funções e classificação
-│   ├── aula2-versao4.js       validação com notaValida()
-│   └── extensao-repeticao.js  repetição com while e break
+├── aula1/
+│   ├── versao1/aula1-media.js   dados definidos no código
+│   └── versao2/aula1-media.js   dados informados com prompt()
+├── aula2/
+│   ├── versao3/aula2-media.js   funções e classificação
+│   ├── versao4/aula2-media.js   validação com notaValida()
+│   └── extensao/extensao-repeticao.js   repetição com while e break
 └── desafio/        → os 4 desafios + DESAFIO.md com as respostas
 ```
 

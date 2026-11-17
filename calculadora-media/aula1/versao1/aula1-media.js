@@ -1,5 +1,3 @@
-// Aula 1 — Versão 1: dados definidos no código
-
 // Dados do estudante
 const nomeEstudante = "Mariana";
 const nota1 = 8;

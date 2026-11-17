@@ -1,4 +1,3 @@
-// Aula 1 — Versão 2: dados informados pelo usuário
 const nomeEstudante = prompt(
   "Informe o nome do estudante:"
 );

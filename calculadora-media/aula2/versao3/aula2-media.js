@@ -1,4 +1,3 @@
-// Aula 2 — Versão 3: lógica organizada em funções
 function calcularMedia(nota1, nota2, nota3) {
   return (nota1 + nota2 + nota3) / 3;
 }
