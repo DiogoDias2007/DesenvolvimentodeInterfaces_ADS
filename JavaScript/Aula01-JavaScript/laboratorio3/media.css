@@ -1,0 +1,3 @@
+#resultado:empty { display: none; }
+#resultado.sucesso { background: #d4edda; color: #155724; }
+#resultado.erro { background: #f8d7da; color: #721c24; }
