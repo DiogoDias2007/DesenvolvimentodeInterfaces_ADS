@@ -1,30 +1,52 @@
 # Calculadora de Média — Módulo JavaScript
 
-Projeto de conclusão do Módulo JavaScript da disciplina **Desenvolvimento de Interfaces (ADS)**.
+Projeto de conclusão do Módulo JavaScript da disciplina **Desenvolvimento de Interfaces (ADS)**, seguindo o *Guia de evolução da Calculadora de Média em JavaScript*.
 
-**Acesse:** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/
+- **Aplicação final (Aula 3):** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/
+- **Versões das Aulas 1 e 2 (console):** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/evolucao/
+- **Desafio de compreensão:** https://diogodias2007.github.io/DesenvolvimentodeInterfaces_ADS/calculadora-media/desafio/
 
-## O que a aplicação faz
-- Recebe o nome do estudante e três notas
-- Calcula a média: `(nota1 + nota2 + nota3) / 3`
-- Classifica: **Aprovado** (média ≥ 7), **Recuperação** (5 a 6,99) ou **Reprovado** (abaixo de 5)
-- Valida nome vazio, notas vazias e notas fora do intervalo de 0 a 10
-- Mostra o resultado e as mensagens de erro na própria página
-
-## Arquivos
+## Estrutura
 ```
-index.html → estrutura (campos, botão e área de resultado)
-style.css  → apresentação
-script.js  → lógica e interação
-TESTES.md  → registro dos testes realizados
+calculadora-media/
+├── index.html      → estrutura: formulário, botões Calcular e Limpar, área de resultado
+├── style.css       → apresentação: cores de aprovado, recuperação, reprovado e erro
+├── script.js       → DOM, evento submit, validação, cálculo e classificação
+├── TESTES.md       → registro de todos os testes (Aulas 1, 2 e 3)
+├── evolucao/       → versões do console
+│   ├── aula1-versao1.js       dados definidos no código
+│   ├── aula1-versao2.js       dados informados com prompt()
+│   ├── aula2-versao3.js       funções e classificação
+│   ├── aula2-versao4.js       validação com notaValida()
+│   └── extensao-repeticao.js  repetição com while e break
+└── desafio/        → os 4 desafios + DESAFIO.md com as respostas
 ```
 
-## Evolução pelas aulas
-| Aula | Conteúdo | Onde aparece no `script.js` |
-|------|----------|-----------------------------|
-| 1 — Variáveis, tipos e operadores | guardar nome e notas, calcular | `const nome`, `Number(texto)`, `(nota1 + nota2 + nota3) / 3` |
-| 2 — Condicionais, repetições e funções | média em função e classificação | `calcularMedia()`, `classificar()` com `if / else if / else`, laço `for` nas notas |
-| 3 — DOM, eventos e validação | ligar a lógica à página | `document.getElementById`, `addEventListener("click")`, validações e `textContent` |
+## Mapa da evolução
+| Aula | Interface | Lógica incorporada | Produto |
+|------|-----------|--------------------|---------|
+| 1 | Console | Variáveis, operadores, entrada com `prompt()` e `Number()` | Calculadora simples |
+| 2 | Console | Funções, `if / else if / else`, validação, `while` | Classificador de resultados |
+| 3 | Página web | DOM, evento `submit`, formulário, mensagens na página | Aplicação web completa |
+
+## Fluxo da aplicação final
+1. O estudante preenche o nome e as três notas.
+2. O evento `submit` chama a função associada ao formulário.
+3. `preventDefault()` mantém a página aberta sem recarregar.
+4. Os valores são capturados e convertidos com `Number()`.
+5. As validações param o processamento quando encontram um problema.
+6. `calcularMedia()` e `verificarSituacao()` calculam a média e a situação.
+7. O resultado e a classe de cor são inseridos na página.
 
 ## Testes
-10 casos testados (aprovação, recuperação, reprovação e dados inválidos), sem erros no console. Veja [TESTES.md](TESTES.md).
+Todos os casos do guia foram executados, além de casos-limite. Nenhum erro no console. Veja [TESTES.md](TESTES.md), incluindo os dois problemas encontrados no código do guia e como foram corrigidos.
+
+## Checklist final
+- [x] Os três arquivos estão na mesma pasta
+- [x] Os `id` do HTML correspondem aos seletores do JavaScript
+- [x] As notas são convertidas para número
+- [x] Campos vazios e notas fora do intervalo são tratados
+- [x] As funções devolvem os resultados esperados
+- [x] O botão Calcular atualiza a página sem recarregá-la
+- [x] O botão Limpar restaura a mensagem inicial
+- [x] Todos os casos de teste foram executados

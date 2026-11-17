@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Executando versão</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main class="container">
+    <h1 id="titulo">Executando</h1>
+    <p>Veja a saída no console (F12 → Console).</p>
+    <p><a href="index.html">Voltar para as versões</a></p>
+  </main>
+  <script>
+    const permitidos = ["aula1-versao1.js", "aula1-versao2.js", "aula2-versao3.js", "aula2-versao4.js", "extensao-repeticao.js"];
+    const arquivo = new URLSearchParams(location.search).get("arquivo");
+    if (permitidos.includes(arquivo)) {
+      document.querySelector("#titulo").textContent = "Executando " + arquivo;
+      const script = document.createElement("script");
+      script.src = arquivo;
+      document.body.appendChild(script);
+    } else {
+      document.querySelector("#titulo").textContent = "Versão não encontrada.";
+    }
+  </script>
+</body>
+</html>

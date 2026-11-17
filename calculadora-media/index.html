@@ -7,24 +7,30 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="cartao">
+  <main class="container">
     <h1>Calculadora de Média</h1>
+    <p>Informe o nome e as três notas.</p>
 
-    <label for="nome">Nome do estudante</label>
-    <input type="text" id="nome" placeholder="Ex.: Ana Souza">
+    <form id="formulario-media" novalidate>
+      <label for="nome">Nome do estudante</label>
+      <input type="text" id="nome" placeholder="Ex.: Mariana Silva">
 
-    <label for="nota1">Nota 1</label>
-    <input type="number" id="nota1" min="0" max="10" step="0.1">
+      <label for="nota1">Primeira nota</label>
+      <input type="number" id="nota1" min="0" max="10" step="0.1">
 
-    <label for="nota2">Nota 2</label>
-    <input type="number" id="nota2" min="0" max="10" step="0.1">
+      <label for="nota2">Segunda nota</label>
+      <input type="number" id="nota2" min="0" max="10" step="0.1">
 
-    <label for="nota3">Nota 3</label>
-    <input type="number" id="nota3" min="0" max="10" step="0.1">
+      <label for="nota3">Terceira nota</label>
+      <input type="number" id="nota3" min="0" max="10" step="0.1">
 
-    <button type="button" id="calcular">Calcular média</button>
+      <button type="submit">Calcular média</button>
+      <button type="reset" id="limpar">Limpar</button>
+    </form>
 
-    <p id="resultado" class="resultado" aria-live="polite"></p>
+    <section id="resultado" class="resultado" aria-live="polite">
+      O resultado será apresentado aqui.
+    </section>
   </main>
 
   <script src="script.js"></script>
